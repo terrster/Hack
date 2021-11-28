@@ -1,0 +1,50 @@
+<div
+      class="prueba"
+      [ngStyle]="{
+        backgroundImage: 'url(https://source.unsplash.com/1200x600/?help)'
+      }"
+    >
+      <div class="prueba2 p-3 align-items-center justify-content-center">
+        <div class="p-5 container rounded-3 text-white text-center">
+          <div class="title mb-2" *ngIf="show == false">
+            <h2>Bienvenido</h2>
+            <h3>
+              Permitenos ayudarte.
+            </h3>
+          </div>
+          <ng-container *ngIf="show == false">
+            <div class="row container d-flex justify-content-center mt-5 gap-1">
+            
+              <div class="form-group col-12">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Si gustas peudes dejar tu nombre"
+                />
+              </div>
+              <div class="form-group col-12">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="¿En que te podemos ayudar?"
+                />
+              </div>
+              <div class="form-group">
+                <button
+                  type="submit"
+                  class="btn btn-warning"
+                  (click)="shows()"
+                >
+                  Enviar
+                </button>
+              </div>           
+            </div>
+          </ng-container>
+          <ng-container *ngIf="show == true">
+            <div #talkjsContainer style="height: 500px">Loading...</div>
+          </ng-container>
+          
+        </div>
+      </div>
+</div>
+

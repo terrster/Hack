@@ -1,0 +1,10 @@
+.bg_col{
+    background: #82A3C6;
+}
+li a:hover{
+    cursor: pointer;
+}
+
+header{
+    max-height: 20vh;
+}

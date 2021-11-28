@@ -1,0 +1,17 @@
+<main>
+    <div class="container-sm">
+        <div class="row row-cols-1 row-col-md-5 gx-5 gy-4 mt-2">
+            <div class="col card-group col-lg-4 pe-auto"*ngFor="let collet of collets">
+                <div class="card text-white card-has-bg click-col" (click)="_collets.goto(['ayuda', collet.name])"
+                    [ngStyle]="{backgroundImage:'url(https://source.unsplash.com/1200x600'+collet.img+')'}">
+                    <div class="card-img-overlay d-flex flex-column">
+                        <div class="card-body ">
+                            <h4 class="card-title mt-0 text-white">{{collet.name}}</h4>
+                            <small>{{collet.description}}</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>

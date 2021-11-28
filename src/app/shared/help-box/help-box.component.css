@@ -1,0 +1,14 @@
+.prueba{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    min-height: 85vh;
+}
+.prueba .prueba2{
+    background: rgb(234, 206, 137);
+    background: linear-gradient(rgba(0, 0, 100, 0.379) 0%, rgba(0, 0, 0, 0) 100%);
+}
+

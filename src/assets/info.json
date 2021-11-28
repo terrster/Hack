@@ -1,0 +1,32 @@
+{
+    "collets": [{
+        "name": "Psicologica",
+        "description": "Te conectamos con las mejores organizaciones acuerdo a tus necesidades y retos actuales.",
+        "img": "/?psychology"
+    },
+    {
+        "name": "Bullying/Acoso",
+        "description": "Apoyo a las personas que sufren de bullying y acoso.",
+        "img": "/?bullying"
+    },
+    {
+        "name": "Violencia",
+        "description": "Dirigido a personas que han sufrido agreciones de cualquier tipo.",
+        "img": "/?violence"
+    },
+    {
+        "name": "Apoyo a Mujeres",
+        "description": "Atencion a mujeres en situaciones de violencia, abuso, prejuicios, etc.",
+        "img": "/?feminist"
+    },
+    {
+        "name": "Atencion LGBTT+",
+        "description": "Apoyo a personas LGBTT+ pruebas VIH, Apoyo emocional",
+        "img": "/?lgbt"
+    },
+    {
+        "name": "Menores",
+        "description": "Atencion a personas menores de edad.",
+        "img": "/?childs"
+    }]
+}
